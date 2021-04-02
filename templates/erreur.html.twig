@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Narjes Jomaa Bouzid &mdash; Créatrice des applications web </title>
+
+        {% block stylesheets %}
+            <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet">
+            {{ encore_entry_link_tags('main') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
+            {{ encore_entry_script_tags('main') }}
+        {% endblock %}
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12 mt-5">
+                    <h2> Ouupss .. La page demandée n’existe pas! </h2> 
+                </div>
+                <div class="col-12">
+                    <a href="/"> <h5>Veuillez cliquer sur ce lien pour revenir à la page d'accueil</h5> </a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
